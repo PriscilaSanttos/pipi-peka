@@ -1,0 +1,166 @@
+*{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'schoolbell', cursive, Arial, Helvetica, sans-serif; 
+    font-size: 22px;
+}
+
+.banner {
+    background: url("../img/banner.png");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 23%;
+
+}
+
+h1{
+    font-size: 90px;
+    padding-top: 163px;
+    color: rgba(0, 0, 0, 0.452);
+}
+
+.nav-cor:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+
+}
+
+.clippath-conteudo{
+    position: relative;
+}
+
+.clippath-azul{
+    -webkit-clip-path: polygon(1347px 420px,1340px -1px,1241px 387px,94px 420px);
+    clip-path: polygon(1347px 420px,1340px -1px,1241px 362px,215px 420px);
+    background-color: #1f71b7;
+    height: 495px;
+}
+
+.clippath-text{
+    position: absolute;
+    top: 25%;
+    height: 100%;
+    max-width: 550px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.corpo-modal_subtitulo{
+    color: #feb84a;
+}
+
+
+.card-body{
+    border: black double;
+}
+.card-cor-rosa{
+    background-image: radial-gradient(circle, #ffffff, #fcf8fd, #fdf0f7, #ffe8ec, #ffe1de, #ffe1de, #ffe1de, #ffe1de, #ffe8ec, #fdf0f7, #fcf8fd, #ffffff);
+}
+.card-cor-azul{
+    background-image: radial-gradient(circle, #ffffff, #f7f7fe, #edf0fd, #e2e9fd, #d4e3fc, #d4e3fc, #d4e3fc, #d4e3fc, #e2e9fd, #edf0fd, #f7f7fe, #ffffff);
+}
+
+.card-amarelo{
+    background-color:#fdf142;
+    text-transform: uppercase;
+}
+.card-principal{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.cards-livros{
+    position: relative;
+}
+
+.img-livros{
+    object-fit: cover;
+    object-position: center;
+    align-items: center
+}
+
+.clippath-terracota{
+    -webkit-clip-path: polygon(1200px 499px,70px 441px,9px -9px,1px 508px);
+    clip-path: polygon(1200px 499px,70px 441px,9px -9px,1px 508px);
+    background-color:#c84b4b;
+    height: 495px;
+}
+
+.titulo-livros{
+    position: absolute;
+    top: 0%;
+    max-width: 550px;
+    left: 49%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.clippath-posicao {
+    position: absolute;
+    top: 20%;
+    max-width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.form-contact{
+
+    width: 90%;
+}
+
+textarea{
+    resize: none;
+    border: black dashed 2px;
+
+}
+
+.form-control{
+    border: 2px dashed #000
+}
+
+textarea.form-control{
+    height: 100px;
+}
+
+span.error{
+    font-size: 15px;
+    color:black;
+    letter-spacing: 0.5px;
+}
+
+input.error, textarea.error{
+    border-color: black;
+}
+
+#myChart {
+	height:100%;
+	width:100%;
+	min-height:150px;
+}
+.zc-ref {
+	display:none;
+}
+
+.img-professora{
+    object-fit: cover;
+    object-position: center;
+    width: 70%;
+}
+
+
+
+.footer{
+  background-color: #312783;
+}
+
+a{
+    text-decoration: none;
+}
+
